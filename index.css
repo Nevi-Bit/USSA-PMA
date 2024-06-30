@@ -64,3 +64,8 @@ body{
     border-radius: 10px;
     width: 30%;
 }
+
+.checkmark{
+    color: lightgreen;
+    font-size: 150px;
+}

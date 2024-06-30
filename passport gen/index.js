@@ -54,6 +54,7 @@ function login() {
         let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
 <html lang="en" id="meta">
 <head>
+    <link rel="icon" type="image/x-icon" href="passport star.png">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <meta charset="UTF-8">
@@ -90,6 +91,7 @@ function login() {
         let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
 <html lang="en" id="meta">
 <head>
+<link rel="icon" type="image/x-icon" href="star.png">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <meta charset="UTF-8">
@@ -129,6 +131,7 @@ function redirect(username) {
     let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
 <html lang="en" id="meta">
 <head>
+<link rel="icon" type="image/x-icon" href="star.png">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <meta charset="UTF-8">
@@ -168,6 +171,7 @@ function gen(username) {
     let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/x-icon" href="star.png">
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
