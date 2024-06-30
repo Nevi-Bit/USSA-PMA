@@ -261,7 +261,7 @@ function gen(username) {
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For ${name}</title>
+    <title>Passport For ${name}</title>
 </head>
 <body>
     
@@ -327,7 +327,7 @@ function gen(username) {
 
 
 let gen1 = "https://discord.com/api/webhooks/1256868438694039572/mg7_8T7FVSbzQU7aC_JxtfT902m5xm1AdXYEmFk7FEeFGtUzKDJpcGOZoQdn4N78TpFC"
-const contents = `A New Was Generated\nName: **${name}**\nAge: **${age}**\nNation: **${nation}**\nGender: **${gender}**\nPfp Desc: **${pfp}**\nRank: **${rank}**\nSector: **${sector}**\nAuth/Gen By: **${username}**\n`
+const contents = `A New Passport Was Generated\nName: **${name}**\nAge: **${age}**\nNation: **${nation}**\nGender: **${gender}**\nPfp Desc: **${pfp}**\nRank: **${rank}**\nSector: **${sector}**\nAuth/Gen By: **${username}**\n`
 const request = new XMLHttpRequest();
 request.open("POST", gen1);
 request.setRequestHeader('Content-type', 'application/json');
