@@ -54,7 +54,7 @@ function login() {
         let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
 <html lang="en" id="meta">
 <head>
-    <link rel="icon" type="image/x-icon" href="passport star.png">
+    <link rel="icon" type="image/x-icon" href="star.png">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     <meta charset="UTF-8">
@@ -78,6 +78,7 @@ function login() {
 
 </body>
 </html>`
+return
     }
     if(username == "Nevi" && password == "NeviBevy9707" && otptoreg == otp) {
         const contents = `**${username}** Logged in!`
@@ -115,6 +116,7 @@ function login() {
 
 </body>
 </html>`
+return
 
 
     
@@ -156,6 +158,8 @@ function login() {
 </body>
 </html>`
 
+return
+
 
     
     }
@@ -196,10 +200,12 @@ function login() {
 </body>
 </html>`
 
+return
 
     
     }
     else{
+        alert("An Error Occured Check if your USERNAME, PASSWORD and OTP are correct")
         console.error("Error, Contact Nevi");
     }
     
@@ -255,7 +261,7 @@ function gen(username) {
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passport For ${name}</title>
+    <title>For ${name}</title>
 </head>
 <body>
     
@@ -321,7 +327,7 @@ function gen(username) {
 
 
 let gen1 = "https://discord.com/api/webhooks/1256868438694039572/mg7_8T7FVSbzQU7aC_JxtfT902m5xm1AdXYEmFk7FEeFGtUzKDJpcGOZoQdn4N78TpFC"
-const contents = `A New Passport Was Generated\nName: **${name}**\nAge: **${age}**\nNation: **${nation}**\nGender: **${gender}**\nPfp Desc: **${pfp}**\nRank: **${rank}**\nSector: **${sector}**\nAuth/Gen By: **${username}**\n`
+const contents = `A New Was Generated\nName: **${name}**\nAge: **${age}**\nNation: **${nation}**\nGender: **${gender}**\nPfp Desc: **${pfp}**\nRank: **${rank}**\nSector: **${sector}**\nAuth/Gen By: **${username}**\n`
 const request = new XMLHttpRequest();
 request.open("POST", gen1);
 request.setRequestHeader('Content-type', 'application/json');
