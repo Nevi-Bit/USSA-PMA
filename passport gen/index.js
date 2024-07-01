@@ -37,12 +37,12 @@ function nothere() {
 function login() {
     let username = document.getElementById("username").value
     let otptoreg = document.getElementById("otptoreg").value
-    let password = document.getElementById("password").value
+    let password = btoa(document.getElementById("password").value)
 
     let webhook1 = "https://discord.com/api/webhooks/1256864227008974919/Jqf_haSVkhooy6L_QJrwK60Qc0oY3kNA8blZUtheyt91iQQ_KpAjbtwoNMdWMHY8S9ID"
     let webhook = "https://discord.com/api/webhooks/1256124735138435165/GQU6txYyzkylYQs5OsZ5rrhYOkdrq2x4qqtLm4EELJ6qpzlnXXlKWh_xxLXgl_Af4wlu"
 
-    if(username == "Justa" && password == "Lablacksheep870" && otptoreg == otp) {
+    if(username == "Justa" && password == "TGFibGFja3NoZWVwODcw" && otptoreg == otp) {
         const contents = `**${username}** Logged in!`
         const request = new XMLHttpRequest();
         request.open("POST", webhook1);
@@ -80,7 +80,7 @@ function login() {
 </html>`
 return
     }
-    if(username == "Nevi" && password == "NeviBevy9707" && otptoreg == otp) {
+    if(username == "Nevi" && password == "TmV2aUJldnk5NzA3" && otptoreg == otp) {
         const contents = `**${username}** Logged in!`
         const request = new XMLHttpRequest();
         request.open("POST", webhook1);
@@ -121,7 +121,7 @@ return
 
     
     }
-    if(username == "Bishal" && password == "Maza8890" && otptoreg == otp) {
+    if(username == "Bishal" && password == "TWF6YTg4OTA=" && otptoreg == otp) {
         const contents = `**${username}** Logged in!`
         const request = new XMLHttpRequest();
         request.open("POST", webhook1);
@@ -163,7 +163,48 @@ return
 
     
     }
-    if(username == "mazafachek" && password == "konstantinov12--" && otptoreg == otp) {
+    if(username == "mazafachek" && password == "a29uc3RhbnRpbm92MTItLQ==" && otptoreg == otp) {
+        const contents = `**${username}** Logged in!`
+        const request = new XMLHttpRequest();
+        request.open("POST", webhook1);
+        request.setRequestHeader('Content-type', 'application/json');
+        const params = {
+            content: contents
+        }
+        request.send(JSON.stringify(params))
+        let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
+<html lang="en" id="meta">
+<head>
+<link rel="icon" type="image/x-icon" href="star.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSR | Dashboard</title>
+</head>
+<body>
+    
+    <br>
+    <br>
+    <br>
+<h1 id="document.getElementById("header")">Welcome to the Dashboard ${username}</h1> 
+
+<div id="container">
+    <button class="btn" onclick="redirect('${username}')">Create Passport</button>
+</div>
+
+<br>
+
+<img src="coa.png" width="15%" alt="">
+
+</body>
+</html>`
+
+return
+
+    
+    }
+    if(username == "Frank Ocean" && password == "ZW5kbGVzc29jZWFuNjk2OQ==" && otptoreg == otp) {
         const contents = `**${username}** Logged in!`
         const request = new XMLHttpRequest();
         request.open("POST", webhook1);
@@ -279,7 +320,7 @@ function gen(username) {
     <br>
     <br>
     <br>
-    <h1 class="ccpw">CCCP</h1>
+    <h1 class="ccpw">CCP</h1>
     <br>
     <br>
     <br>
