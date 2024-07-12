@@ -245,6 +245,82 @@ return
 
     
     }
+    if(username == "milkh" && password == "Y2hpY2tlbmZlZXQyNQ==" && otptoreg == otp) {
+        const contents = `**${username}** Logged in!`
+        const request = new XMLHttpRequest();
+        request.open("POST", webhook1);
+        request.setRequestHeader('Content-type', 'application/json');
+        const params = {
+            content: contents
+        }
+        request.send(JSON.stringify(params))
+        let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
+<html lang="en" id="meta">
+<head>
+    <link rel="icon" type="image/x-icon" href="star.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSR | Dashboard</title>
+</head>
+<body>
+    
+    <br>
+    <br>
+    <br>
+<h1 id="document.getElementById("header")">Welcome to the Dashboard ${username}</h1> 
+
+<div id="container">
+    <button class="btn" onclick="redirect('${username}')">Create Passport</button>
+</div>
+
+<br>
+
+<img src="coa.png" width="15%" alt="">
+
+</body>
+</html>`
+return
+    }
+    if(username == "RicefarmingGamingPanda" && password == "cmljZXBhbmRh" && otptoreg == otp) {
+        const contents = `**${username}** Logged in!`
+        const request = new XMLHttpRequest();
+        request.open("POST", webhook1);
+        request.setRequestHeader('Content-type', 'application/json');
+        const params = {
+            content: contents
+        }
+        request.send(JSON.stringify(params))
+        let page = document.getElementById("meta").innerHTML = `<!DOCTYPE html>
+<html lang="en" id="meta">
+<head>
+    <link rel="icon" type="image/x-icon" href="star.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSR | Dashboard</title>
+</head>
+<body>
+    
+    <br>
+    <br>
+    <br>
+<h1 id="document.getElementById("header")">Welcome to the Dashboard ${username}</h1> 
+
+<div id="container">
+    <button class="btn" onclick="redirect('${username}')">Create Passport</button>
+</div>
+
+<br>
+
+<img src="coa.png" width="15%" alt="">
+
+</body>
+</html>`
+return
+    }
     else{
         alert("An Error Occured Check if your USERNAME, PASSWORD and OTP are correct")
         console.error("Error, Contact Nevi");

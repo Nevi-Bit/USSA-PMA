@@ -79,7 +79,7 @@ function login() {
 </html>`
 return
     }
-    if(username == "Student" && password == "TmV2aUJldnk5NzA3" && otptoreg == otp) {
+    if(username == "Student" && password == "c3R1ZGVudDEyMw==" && otptoreg == otp) {
         const contents = `**${username}** Logged in!`
         const request = new XMLHttpRequest();
         request.open("POST", webhook1);
